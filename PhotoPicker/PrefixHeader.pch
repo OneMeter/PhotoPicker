@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  PhotoPicker
+//
+//  Created by htkg on 16/8/4.
+//  Copyright © 2016年 Vincent. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//中文字体
+#define CHINESE_FONT_NAME  @"Heiti SC"
+#define CHINESE_SYSTEM(x) [UIFont fontWithName:CHINESE_FONT_NAME size:x]
+
+// MainScreen Height&Width
+#define Main_Screen_Height      [[UIScreen mainScreen] bounds].size.height
+#define Main_Screen_Width       [[UIScreen mainScreen] bounds].size.width
+
+//不同屏幕尺寸字体适配（320，568是因为效果图为IPHONE5 如果不是则根据实际情况修改）
+#define kScreenWidthRatio  (Main_Screen_Width / 320.0)
+#define kScreenHeightRatio (Main_Screen_Height / 568.0)
+#define AdaptedWidth(x)  ceilf((x) * kScreenWidthRatio)
+#define AdaptedHeight(x) ceilf((x) * kScreenHeightRatio)
+#define AdaptedFontSize(R)     CHINESE_SYSTEM(AdaptedWidth(R))
+
+//弱引用/强引用  可配对引用在外面用MPWeakSelf(self)，block用MPStrongSelf(self)  也可以单独引用在外面用MPWeakSelf(self) block里面用weakself
+#define MPWeakSelf(type)  __weak typeof(type) weak##type = type;
+#define MPStrongSelf(type)  __strong typeof(type) type = weak##type;
+
+//上传图片相关
+#define kImageCollectionCell_Width floorf((Main_Screen_Width - 10*2- 10*3)/3)
+//最大的上传图片张数
+#define kupdateMaximumNumberOfImage 2
+
+#import <AFNetworking/AFNetworking.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+#import "BaseRequestService.h"
+#import "MPRequstFailedHelper.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+MP.h"
+#import <MWPhotoBrowser.h>
+
+#endif /* PrefixHeader_pch */
