@@ -29,7 +29,7 @@
 #define MPStrongSelf(type)  __strong typeof(type) type = weak##type;
 
 //上传图片相关
-#define kImageCollectionCell_Width floorf((Main_Screen_Width - 10*2- 10*3)/3)
+#define kImageCollectionCell_Width 50//floorf((Main_Screen_Width - 10*2- 10*3)/3)
 //最大的上传图片张数
 #define kupdateMaximumNumberOfImage 2
 
@@ -41,5 +41,6 @@
 #import "MBProgressHUD.h"
 #import "MBProgressHUD+MP.h"
 #import <MWPhotoBrowser.h>
+
 
 #endif /* PrefixHeader_pch */

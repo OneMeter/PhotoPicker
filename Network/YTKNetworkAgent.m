@@ -87,10 +87,10 @@
     
     
     
-    DDLogInfo(@"网络请求URL:[%@]",url);
-
-    DDLogInfo(@"网络请求方式:[%@]", [self showRequtestMethod:method]);
-    DDLogInfo(@"网络请求参数:%@",param);
+//    DDLogInfo(@"网络请求URL:[%@]",url);
+//
+//    DDLogInfo(@"网络请求方式:[%@]", [self showRequtestMethod:method]);
+//    DDLogInfo(@"网络请求参数:%@",param);
     
     
     AFConstructingBlock constructingBlock = [request constructingBodyBlock];
@@ -219,7 +219,7 @@
                 [self handleRequestResult:operation];
             }];
         } else {
-            DDLogError(@"Error, unsupport method type");
+//            DDLogError(@"Error, unsupport method type");
             return;
         }
     }
@@ -273,8 +273,8 @@
             }
             [request toggleAccessoriesDidStopCallBack];
         } else {
-            DDLogError(@"请求失败 %@ , 错误编码 = %ld",
-                     NSStringFromClass([request class]), (long)request.responseStatusCode);
+//            DDLogError(@"请求失败 %@ , 错误编码 = %ld",
+//                     NSStringFromClass([request class]), (long)request.responseStatusCode);
             [request toggleAccessoriesWillStopCallBack];
             [request requestFailedFilter];
             if (request.delegate != nil) {

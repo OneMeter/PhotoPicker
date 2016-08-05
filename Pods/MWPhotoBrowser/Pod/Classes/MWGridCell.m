@@ -6,11 +6,11 @@
 //
 //
 
-#import <DACircularProgress/DACircularProgressView.h>
 #import "MWGridCell.h"
 #import "MWCommon.h"
 #import "MWPhotoBrowserPrivate.h"
 #import "UIImage+MWPhotoBrowser.h"
+#import <DACircularProgressView.h>
 
 #define VIDEO_INDICATOR_PADDING 10
 

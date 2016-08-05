@@ -3,6 +3,8 @@ target "PhotoPicker" do
 pod 'ReactiveCocoa', '~> 2.5'
 pod 'AFNetworking', '~>2.6.0'
 pod 'MBProgressHUD', '~> 0.9'
-pod 'MWPhotoBrowser' 
-pod 'M13ProgressSuite', '~> 1.2.7'
+pod 'MWPhotoBrowser'  
+pod 'DACircularProgress', '~>2.3.1'
+#pod 'M13ProgressSuite', '~> 1.2.7'
+
 end 

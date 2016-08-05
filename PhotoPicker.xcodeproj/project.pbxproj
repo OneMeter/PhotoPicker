@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EA4217C1D542A1D003F9BDB /* M13ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA421791D542A1D003F9BDB /* M13ProgressView.m */; };
+		4EA4217D1D542A1D003F9BDB /* M13ProgressViewPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4217B1D542A1D003F9BDB /* M13ProgressViewPie.m */; };
+		4EA421811D542B9D003F9BDB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA421801D542B9D003F9BDB /* Reachability.m */; };
 		4ED802071D5317E3000691C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802061D5317E3000691C1 /* main.m */; };
 		4ED8020A1D5317E3000691C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802091D5317E3000691C1 /* AppDelegate.m */; };
 		4ED802121D5317E3000691C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED802111D5317E3000691C1 /* Assets.xcassets */; };
@@ -34,24 +37,6 @@
 		4ED802711D5319D2000691C1 /* MPImageProgressCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802641D5319D2000691C1 /* MPImageProgressCollectionCell.m */; };
 		4ED802721D5319D2000691C1 /* MPImageUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802661D5319D2000691C1 /* MPImageUploadCell.m */; };
 		4ED802731D5319D2000691C1 /* MPImageUploadProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802681D5319D2000691C1 /* MPImageUploadProgressCell.m */; };
-		4ED8029F1D531A65000691C1 /* M13ProgressConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802781D531A65000691C1 /* M13ProgressConsole.m */; };
-		4ED802A01D531A65000691C1 /* M13ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8027B1D531A65000691C1 /* M13ProgressHUD.m */; };
-		4ED802A11D531A65000691C1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8027D1D531A65000691C1 /* UIImage+ImageEffects.m */; };
-		4ED802A21D531A65000691C1 /* UINavigationController+M13ProgressViewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802801D531A65000691C1 /* UINavigationController+M13ProgressViewBar.m */; };
-		4ED802A31D531A65000691C1 /* M13ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802831D531A65000691C1 /* M13ProgressView.m */; };
-		4ED802A41D531A65000691C1 /* M13ProgressViewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802851D531A65000691C1 /* M13ProgressViewBar.m */; };
-		4ED802A51D531A65000691C1 /* M13ProgressViewBorderedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802871D531A65000691C1 /* M13ProgressViewBorderedBar.m */; };
-		4ED802A61D531A65000691C1 /* M13ProgressViewFilteredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802891D531A65000691C1 /* M13ProgressViewFilteredImage.m */; };
-		4ED802A71D531A65000691C1 /* M13ProgressViewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8028B1D531A65000691C1 /* M13ProgressViewImage.m */; };
-		4ED802A81D531A65000691C1 /* M13ProgressViewLetterpress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8028D1D531A65000691C1 /* M13ProgressViewLetterpress.m */; };
-		4ED802A91D531A65000691C1 /* M13ProgressViewMetro.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8028F1D531A65000691C1 /* M13ProgressViewMetro.m */; };
-		4ED802AA1D531A65000691C1 /* M13ProgressViewMetroDotPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802911D531A65000691C1 /* M13ProgressViewMetroDotPolygon.m */; };
-		4ED802AB1D531A65000691C1 /* M13ProgressViewPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802931D531A65000691C1 /* M13ProgressViewPie.m */; };
-		4ED802AC1D531A65000691C1 /* M13ProgressViewRadiative.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802951D531A65000691C1 /* M13ProgressViewRadiative.m */; };
-		4ED802AD1D531A65000691C1 /* M13ProgressViewRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802971D531A65000691C1 /* M13ProgressViewRing.m */; };
-		4ED802AE1D531A65000691C1 /* M13ProgressViewSegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802991D531A65000691C1 /* M13ProgressViewSegmentedBar.m */; };
-		4ED802AF1D531A65000691C1 /* M13ProgressViewSegmentedRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8029B1D531A65000691C1 /* M13ProgressViewSegmentedRing.m */; };
-		4ED802B01D531A65000691C1 /* M13ProgressViewStripedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8029D1D531A65000691C1 /* M13ProgressViewStripedBar.m */; };
 		4ED802B51D531A8E000691C1 /* MPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802B41D531A8E000691C1 /* MPFileManager.m */; };
 		4ED803D11D531ABB000691C1 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802B91D531ABA000691C1 /* UIAlertView+Block.m */; };
 		4ED803D21D531ABB000691C1 /* UIApplication+ApplicationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED802BC1D531ABA000691C1 /* UIApplication+ApplicationSize.m */; };
@@ -192,19 +177,23 @@
 		4ED805911D5327AF000691C1 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805851D5327AF000691C1 /* YTKNetworkPrivate.m */; };
 		4ED805921D5327AF000691C1 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805871D5327AF000691C1 /* YTKRequest.m */; };
 		4ED805961D532AE2000691C1 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805951D532AE2000691C1 /* AFDownloadRequestOperation.m */; };
-		4ED805AC1D532CC2000691C1 /* GVUserDefaults+BBProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8059C1D532CC2000691C1 /* GVUserDefaults+BBProperties.m */; };
 		4ED805AD1D532CC2000691C1 /* MBProgressHUD+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8059E1D532CC2000691C1 /* MBProgressHUD+MP.m */; };
 		4ED805AE1D532CC2000691C1 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805A01D532CC2000691C1 /* NSString+Additions.m */; };
 		4ED805AF1D532CC2000691C1 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805A31D532CC2000691C1 /* JRSwizzle.m */; };
 		4ED805B01D532CC2000691C1 /* SYSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805A51D532CC2000691C1 /* SYSafeCategory.m */; };
 		4ED805B11D532CC2000691C1 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805A71D532CC2000691C1 /* UITextField+Extension.m */; };
 		4ED805B21D532CC2000691C1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805A91D532CC2000691C1 /* UIView+Extension.m */; };
-		4ED805B31D532CC2000691C1 /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED805AB1D532CC2000691C1 /* UIViewController+Swizzle.m */; };
 		CAC1ED4F1C83B0E96343304B /* libPods-PhotoPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D136D5D46F58D910897DF8 /* libPods-PhotoPicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3896082E3083DD577AAA25C8 /* Pods-PhotoPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPicker/Pods-PhotoPicker.release.xcconfig"; sourceTree = "<group>"; };
+		4EA421781D542A1D003F9BDB /* M13ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressView.h; sourceTree = "<group>"; };
+		4EA421791D542A1D003F9BDB /* M13ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressView.m; sourceTree = "<group>"; };
+		4EA4217A1D542A1D003F9BDB /* M13ProgressViewPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewPie.h; sourceTree = "<group>"; };
+		4EA4217B1D542A1D003F9BDB /* M13ProgressViewPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewPie.m; sourceTree = "<group>"; };
+		4EA4217F1D542B9D003F9BDB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4EA421801D542B9D003F9BDB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		4ED802021D5317E2000691C1 /* PhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED802061D5317E3000691C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4ED802081D5317E3000691C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -258,42 +247,6 @@
 		4ED802661D5319D2000691C1 /* MPImageUploadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPImageUploadCell.m; sourceTree = "<group>"; };
 		4ED802671D5319D2000691C1 /* MPImageUploadProgressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPImageUploadProgressCell.h; sourceTree = "<group>"; };
 		4ED802681D5319D2000691C1 /* MPImageUploadProgressCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPImageUploadProgressCell.m; sourceTree = "<group>"; };
-		4ED802771D531A65000691C1 /* M13ProgressConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressConsole.h; sourceTree = "<group>"; };
-		4ED802781D531A65000691C1 /* M13ProgressConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressConsole.m; sourceTree = "<group>"; };
-		4ED8027A1D531A65000691C1 /* M13ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressHUD.h; sourceTree = "<group>"; };
-		4ED8027B1D531A65000691C1 /* M13ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressHUD.m; sourceTree = "<group>"; };
-		4ED8027C1D531A65000691C1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		4ED8027D1D531A65000691C1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		4ED8027F1D531A65000691C1 /* UINavigationController+M13ProgressViewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+M13ProgressViewBar.h"; sourceTree = "<group>"; };
-		4ED802801D531A65000691C1 /* UINavigationController+M13ProgressViewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+M13ProgressViewBar.m"; sourceTree = "<group>"; };
-		4ED802821D531A65000691C1 /* M13ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressView.h; sourceTree = "<group>"; };
-		4ED802831D531A65000691C1 /* M13ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressView.m; sourceTree = "<group>"; };
-		4ED802841D531A65000691C1 /* M13ProgressViewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewBar.h; sourceTree = "<group>"; };
-		4ED802851D531A65000691C1 /* M13ProgressViewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewBar.m; sourceTree = "<group>"; };
-		4ED802861D531A65000691C1 /* M13ProgressViewBorderedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewBorderedBar.h; sourceTree = "<group>"; };
-		4ED802871D531A65000691C1 /* M13ProgressViewBorderedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewBorderedBar.m; sourceTree = "<group>"; };
-		4ED802881D531A65000691C1 /* M13ProgressViewFilteredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewFilteredImage.h; sourceTree = "<group>"; };
-		4ED802891D531A65000691C1 /* M13ProgressViewFilteredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewFilteredImage.m; sourceTree = "<group>"; };
-		4ED8028A1D531A65000691C1 /* M13ProgressViewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewImage.h; sourceTree = "<group>"; };
-		4ED8028B1D531A65000691C1 /* M13ProgressViewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewImage.m; sourceTree = "<group>"; };
-		4ED8028C1D531A65000691C1 /* M13ProgressViewLetterpress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewLetterpress.h; sourceTree = "<group>"; };
-		4ED8028D1D531A65000691C1 /* M13ProgressViewLetterpress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewLetterpress.m; sourceTree = "<group>"; };
-		4ED8028E1D531A65000691C1 /* M13ProgressViewMetro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewMetro.h; sourceTree = "<group>"; };
-		4ED8028F1D531A65000691C1 /* M13ProgressViewMetro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewMetro.m; sourceTree = "<group>"; };
-		4ED802901D531A65000691C1 /* M13ProgressViewMetroDotPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewMetroDotPolygon.h; sourceTree = "<group>"; };
-		4ED802911D531A65000691C1 /* M13ProgressViewMetroDotPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewMetroDotPolygon.m; sourceTree = "<group>"; };
-		4ED802921D531A65000691C1 /* M13ProgressViewPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewPie.h; sourceTree = "<group>"; };
-		4ED802931D531A65000691C1 /* M13ProgressViewPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewPie.m; sourceTree = "<group>"; };
-		4ED802941D531A65000691C1 /* M13ProgressViewRadiative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewRadiative.h; sourceTree = "<group>"; };
-		4ED802951D531A65000691C1 /* M13ProgressViewRadiative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewRadiative.m; sourceTree = "<group>"; };
-		4ED802961D531A65000691C1 /* M13ProgressViewRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewRing.h; sourceTree = "<group>"; };
-		4ED802971D531A65000691C1 /* M13ProgressViewRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewRing.m; sourceTree = "<group>"; };
-		4ED802981D531A65000691C1 /* M13ProgressViewSegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewSegmentedBar.h; sourceTree = "<group>"; };
-		4ED802991D531A65000691C1 /* M13ProgressViewSegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewSegmentedBar.m; sourceTree = "<group>"; };
-		4ED8029A1D531A65000691C1 /* M13ProgressViewSegmentedRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewSegmentedRing.h; sourceTree = "<group>"; };
-		4ED8029B1D531A65000691C1 /* M13ProgressViewSegmentedRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewSegmentedRing.m; sourceTree = "<group>"; };
-		4ED8029C1D531A65000691C1 /* M13ProgressViewStripedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewStripedBar.h; sourceTree = "<group>"; };
-		4ED8029D1D531A65000691C1 /* M13ProgressViewStripedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewStripedBar.m; sourceTree = "<group>"; };
 		4ED802B31D531A8E000691C1 /* MPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFileManager.h; sourceTree = "<group>"; };
 		4ED802B41D531A8E000691C1 /* MPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFileManager.m; sourceTree = "<group>"; };
 		4ED802B81D531ABA000691C1 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
@@ -576,8 +529,6 @@
 		4ED805871D5327AF000691C1 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
 		4ED805941D532AE2000691C1 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
 		4ED805951D532AE2000691C1 /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
-		4ED8059B1D532CC2000691C1 /* GVUserDefaults+BBProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+BBProperties.h"; sourceTree = "<group>"; };
-		4ED8059C1D532CC2000691C1 /* GVUserDefaults+BBProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+BBProperties.m"; sourceTree = "<group>"; };
 		4ED8059D1D532CC2000691C1 /* MBProgressHUD+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MP.h"; sourceTree = "<group>"; };
 		4ED8059E1D532CC2000691C1 /* MBProgressHUD+MP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MP.m"; sourceTree = "<group>"; };
 		4ED8059F1D532CC2000691C1 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
@@ -590,8 +541,6 @@
 		4ED805A71D532CC2000691C1 /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
 		4ED805A81D532CC2000691C1 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		4ED805A91D532CC2000691C1 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		4ED805AA1D532CC2000691C1 /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
-		4ED805AB1D532CC2000691C1 /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
 		52502D50FEEBC8A3C76316BB /* Pods-PhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoPicker/Pods-PhotoPicker.debug.xcconfig"; sourceTree = "<group>"; };
 		68D136D5D46F58D910897DF8 /* libPods-PhotoPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -617,16 +566,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4EA421771D542A1D003F9BDB /* M13ProgressSuite */ = {
+			isa = PBXGroup;
+			children = (
+				4EA421781D542A1D003F9BDB /* M13ProgressView.h */,
+				4EA421791D542A1D003F9BDB /* M13ProgressView.m */,
+				4EA4217A1D542A1D003F9BDB /* M13ProgressViewPie.h */,
+				4EA4217B1D542A1D003F9BDB /* M13ProgressViewPie.m */,
+			);
+			path = M13ProgressSuite;
+			sourceTree = "<group>";
+		};
+		4EA4217E1D542B9D003F9BDB /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4EA4217F1D542B9D003F9BDB /* Reachability.h */,
+				4EA421801D542B9D003F9BDB /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		4ED801F91D5317E2000691C1 = {
 			isa = PBXGroup;
 			children = (
+				4EA4217E1D542B9D003F9BDB /* Reachability */,
+				4EA421771D542A1D003F9BDB /* M13ProgressSuite */,
 				4ED8059A1D532CC2000691C1 /* Other */,
 				4ED805931D532AE2000691C1 /* AFDownloadRequestOperation */,
 				4ED805701D5327AF000691C1 /* Network */,
 				4ED8056C1D53275F000691C1 /* BaseService */,
 				4ED802B61D531ABA000691C1 /* UIKit */,
 				4ED802B21D531A8E000691C1 /* FileManager */,
-				4ED802741D531A65000691C1 /* M13ProgressSuite */,
 				4ED8024D1D5319D2000691C1 /* Public */,
 				4ED802401D53197F000691C1 /* OtherHelper */,
 				4ED8021F1D531927000691C1 /* QBImagePickerController */,
@@ -764,89 +734,6 @@
 				4ED802681D5319D2000691C1 /* MPImageUploadProgressCell.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		4ED802741D531A65000691C1 /* M13ProgressSuite */ = {
-			isa = PBXGroup;
-			children = (
-				4ED802751D531A65000691C1 /* Classes */,
-			);
-			path = M13ProgressSuite;
-			sourceTree = "<group>";
-		};
-		4ED802751D531A65000691C1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4ED802761D531A65000691C1 /* Console */,
-				4ED802791D531A65000691C1 /* HUD */,
-				4ED8027E1D531A65000691C1 /* NavigationController */,
-				4ED802811D531A65000691C1 /* ProgressViews */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		4ED802761D531A65000691C1 /* Console */ = {
-			isa = PBXGroup;
-			children = (
-				4ED802771D531A65000691C1 /* M13ProgressConsole.h */,
-				4ED802781D531A65000691C1 /* M13ProgressConsole.m */,
-			);
-			path = Console;
-			sourceTree = "<group>";
-		};
-		4ED802791D531A65000691C1 /* HUD */ = {
-			isa = PBXGroup;
-			children = (
-				4ED8027A1D531A65000691C1 /* M13ProgressHUD.h */,
-				4ED8027B1D531A65000691C1 /* M13ProgressHUD.m */,
-				4ED8027C1D531A65000691C1 /* UIImage+ImageEffects.h */,
-				4ED8027D1D531A65000691C1 /* UIImage+ImageEffects.m */,
-			);
-			path = HUD;
-			sourceTree = "<group>";
-		};
-		4ED8027E1D531A65000691C1 /* NavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				4ED8027F1D531A65000691C1 /* UINavigationController+M13ProgressViewBar.h */,
-				4ED802801D531A65000691C1 /* UINavigationController+M13ProgressViewBar.m */,
-			);
-			path = NavigationController;
-			sourceTree = "<group>";
-		};
-		4ED802811D531A65000691C1 /* ProgressViews */ = {
-			isa = PBXGroup;
-			children = (
-				4ED802821D531A65000691C1 /* M13ProgressView.h */,
-				4ED802831D531A65000691C1 /* M13ProgressView.m */,
-				4ED802841D531A65000691C1 /* M13ProgressViewBar.h */,
-				4ED802851D531A65000691C1 /* M13ProgressViewBar.m */,
-				4ED802861D531A65000691C1 /* M13ProgressViewBorderedBar.h */,
-				4ED802871D531A65000691C1 /* M13ProgressViewBorderedBar.m */,
-				4ED802881D531A65000691C1 /* M13ProgressViewFilteredImage.h */,
-				4ED802891D531A65000691C1 /* M13ProgressViewFilteredImage.m */,
-				4ED8028A1D531A65000691C1 /* M13ProgressViewImage.h */,
-				4ED8028B1D531A65000691C1 /* M13ProgressViewImage.m */,
-				4ED8028C1D531A65000691C1 /* M13ProgressViewLetterpress.h */,
-				4ED8028D1D531A65000691C1 /* M13ProgressViewLetterpress.m */,
-				4ED8028E1D531A65000691C1 /* M13ProgressViewMetro.h */,
-				4ED8028F1D531A65000691C1 /* M13ProgressViewMetro.m */,
-				4ED802901D531A65000691C1 /* M13ProgressViewMetroDotPolygon.h */,
-				4ED802911D531A65000691C1 /* M13ProgressViewMetroDotPolygon.m */,
-				4ED802921D531A65000691C1 /* M13ProgressViewPie.h */,
-				4ED802931D531A65000691C1 /* M13ProgressViewPie.m */,
-				4ED802941D531A65000691C1 /* M13ProgressViewRadiative.h */,
-				4ED802951D531A65000691C1 /* M13ProgressViewRadiative.m */,
-				4ED802961D531A65000691C1 /* M13ProgressViewRing.h */,
-				4ED802971D531A65000691C1 /* M13ProgressViewRing.m */,
-				4ED802981D531A65000691C1 /* M13ProgressViewSegmentedBar.h */,
-				4ED802991D531A65000691C1 /* M13ProgressViewSegmentedBar.m */,
-				4ED8029A1D531A65000691C1 /* M13ProgressViewSegmentedRing.h */,
-				4ED8029B1D531A65000691C1 /* M13ProgressViewSegmentedRing.m */,
-				4ED8029C1D531A65000691C1 /* M13ProgressViewStripedBar.h */,
-				4ED8029D1D531A65000691C1 /* M13ProgressViewStripedBar.m */,
-			);
-			path = ProgressViews;
 			sourceTree = "<group>";
 		};
 		4ED802B21D531A8E000691C1 /* FileManager */ = {
@@ -1408,8 +1295,6 @@
 		4ED8059A1D532CC2000691C1 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				4ED8059B1D532CC2000691C1 /* GVUserDefaults+BBProperties.h */,
-				4ED8059C1D532CC2000691C1 /* GVUserDefaults+BBProperties.m */,
 				4ED8059D1D532CC2000691C1 /* MBProgressHUD+MP.h */,
 				4ED8059E1D532CC2000691C1 /* MBProgressHUD+MP.m */,
 				4ED8059F1D532CC2000691C1 /* NSString+Additions.h */,
@@ -1419,8 +1304,6 @@
 				4ED805A71D532CC2000691C1 /* UITextField+Extension.m */,
 				4ED805A81D532CC2000691C1 /* UIView+Extension.h */,
 				4ED805A91D532CC2000691C1 /* UIView+Extension.m */,
-				4ED805AA1D532CC2000691C1 /* UIViewController+Swizzle.h */,
-				4ED805AB1D532CC2000691C1 /* UIViewController+Swizzle.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -1585,7 +1468,6 @@
 				4ED804051D531ABB000691C1 /* UILabel+AutomaticWriting.m in Sources */,
 				4ED8040A1D531ABB000691C1 /* UINavigationController+BATransitions.m in Sources */,
 				4ED804411D531ABB000691C1 /* UIViewController+MJPopupViewController.m in Sources */,
-				4ED802B01D531A65000691C1 /* M13ProgressViewStripedBar.m in Sources */,
 				4ED802711D5319D2000691C1 /* MPImageProgressCollectionCell.m in Sources */,
 				4ED802491D53197F000691C1 /* cameraHelper.m in Sources */,
 				4ED803D51D531ABB000691C1 /* UIApplication+Permissions.m in Sources */,
@@ -1597,11 +1479,8 @@
 				4ED804001D531ABB000691C1 /* UIImageView+BetterFace.m in Sources */,
 				4ED803F91D531ABB000691C1 /* UIImage+Orientation.m in Sources */,
 				4ED804481D531ABB000691C1 /* UIWebView+JS.m in Sources */,
-				4ED802A81D531A65000691C1 /* M13ProgressViewLetterpress.m in Sources */,
-				4ED802A41D531A65000691C1 /* M13ProgressViewBar.m in Sources */,
 				4ED8041C1D531ABB000691C1 /* UISplitViewController+QuickAccess.m in Sources */,
 				4ED803ED1D531ABB000691C1 /* UIFont+WDCustomLoader.m in Sources */,
-				4ED802A61D531A65000691C1 /* M13ProgressViewFilteredImage.m in Sources */,
 				4ED803E11D531ABB000691C1 /* UIButton+Submitting.m in Sources */,
 				4ED804211D531ABB000691C1 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				4ED8042C1D531ABB000691C1 /* UIView+BlockGesture.m in Sources */,
@@ -1614,14 +1493,11 @@
 				4ED805901D5327AF000691C1 /* YTKNetworkConfig.m in Sources */,
 				4ED8040D1D531ABB000691C1 /* UINavigationController+KeyboardFix.m in Sources */,
 				4ED804061D531ABB000691C1 /* UILabel+AutoSize.m in Sources */,
-				4ED802AD1D531A65000691C1 /* M13ProgressViewRing.m in Sources */,
-				4ED802A91D531A65000691C1 /* M13ProgressViewMetro.m in Sources */,
 				4ED804151D531ABB000691C1 /* UIResponder+UIAdapt.m in Sources */,
 				4ED803D61D531ABB000691C1 /* UIBarButtonItem+Action.m in Sources */,
 				4ED804491D531ABB000691C1 /* UIWebView+Load.m in Sources */,
 				4ED8043E1D531ABB000691C1 /* UIViewController+BackButtonTouched.m in Sources */,
 				4ED8040F1D531ABB000691C1 /* UINavigationItem+Loading.m in Sources */,
-				4ED802AE1D531A65000691C1 /* M13ProgressViewSegmentedBar.m in Sources */,
 				4ED803E41D531ABB000691C1 /* UIColor+HEX.m in Sources */,
 				4ED803EB1D531ABB000691C1 /* UIDevice+PasscodeStatus.m in Sources */,
 				4ED805B01D532CC2000691C1 /* SYSafeCategory.m in Sources */,
@@ -1629,10 +1505,10 @@
 				4ED804301D531ABB000691C1 /* UIView+draggable.m in Sources */,
 				4ED803D21D531ABB000691C1 /* UIApplication+ApplicationSize.m in Sources */,
 				4ED803FC1D531ABB000691C1 /* UIImage+Resize.m in Sources */,
+				4EA421811D542B9D003F9BDB /* Reachability.m in Sources */,
 				4ED803F51D531ABB000691C1 /* UIImage+FileName.m in Sources */,
 				4ED804081D531ABB000691C1 /* UILabel+SuggestSize.m in Sources */,
 				4ED802721D5319D2000691C1 /* MPImageUploadCell.m in Sources */,
-				4ED802AA1D531A65000691C1 /* M13ProgressViewMetroDotPolygon.m in Sources */,
 				4ED8023B1D531927000691C1 /* QBAssetsCollectionViewLayout.m in Sources */,
 				4ED8023C1D531927000691C1 /* QBImagePickerController.m in Sources */,
 				4ED804431D531ABB000691C1 /* UIViewController+TopBarMessage.m in Sources */,
@@ -1641,9 +1517,9 @@
 				4ED8043D1D531ABB000691C1 /* UIViewController+BackButtonItemTitle.m in Sources */,
 				4ED8020A1D5317E3000691C1 /* AppDelegate.m in Sources */,
 				4ED805AF1D532CC2000691C1 /* JRSwizzle.m in Sources */,
+				4EA4217D1D542A1D003F9BDB /* M13ProgressViewPie.m in Sources */,
 				4ED8043C1D531ABB000691C1 /* UIViewController+BackButtonHandler.m in Sources */,
 				4ED802361D531927000691C1 /* QBAssetsCollectionFooterView.m in Sources */,
-				4ED802AF1D531A65000691C1 /* M13ProgressViewSegmentedRing.m in Sources */,
 				4ED803DB1D531ABB000691C1 /* UIBezierPath+Symbol.m in Sources */,
 				4ED804101D531ABB000691C1 /* UINavigationItem+Lock.m in Sources */,
 				4ED8026E1D5319D2000691C1 /* MPUploadImageItemService.m in Sources */,
@@ -1659,9 +1535,7 @@
 				4ED8042E1D531ABB000691C1 /* UIView+CustomBorder.m in Sources */,
 				4ED803D11D531ABB000691C1 /* UIAlertView+Block.m in Sources */,
 				4ED804391D531ABB000691C1 /* UIView+Toast.m in Sources */,
-				4ED802A31D531A65000691C1 /* M13ProgressView.m in Sources */,
 				4ED803F31D531ABB000691C1 /* UIImage+Capture.m in Sources */,
-				4ED802A11D531A65000691C1 /* UIImage+ImageEffects.m in Sources */,
 				4ED804461D531ABB000691C1 /* UIWebView+Blocks.m in Sources */,
 				4ED802731D5319D2000691C1 /* MPImageUploadProgressCell.m in Sources */,
 				4ED802371D531927000691C1 /* QBAssetsCollectionOverlayView.m in Sources */,
@@ -1677,7 +1551,6 @@
 				4ED8040E1D531ABB000691C1 /* UINavigationController+StackManager.m in Sources */,
 				4ED8058E1D5327AF000691C1 /* YTKChainRequestAgent.m in Sources */,
 				4ED8043F1D531ABB000691C1 /* UIViewController+BlockSegue.m in Sources */,
-				4ED802A01D531A65000691C1 /* M13ProgressHUD.m in Sources */,
 				4ED8058C1D5327AF000691C1 /* YTKBatchRequestAgent.m in Sources */,
 				4ED805961D532AE2000691C1 /* AFDownloadRequestOperation.m in Sources */,
 				4ED8058F1D5327AF000691C1 /* YTKNetworkAgent.m in Sources */,
@@ -1689,20 +1562,17 @@
 				4ED804041D531ABB000691C1 /* UIImageView+Reflect.m in Sources */,
 				4ED8026D1D5319D2000691C1 /* MPUploadImageHelper.m in Sources */,
 				4ED802B51D531A8E000691C1 /* MPFileManager.m in Sources */,
-				4ED805AC1D532CC2000691C1 /* GVUserDefaults+BBProperties.m in Sources */,
 				4ED803EC1D531ABB000691C1 /* UIFont+DynamicFontControl.m in Sources */,
 				4ED8044B1D531ABB000691C1 /* UIWebView+Style.m in Sources */,
 				4ED8040C1D531ABB000691C1 /* UINavigationController+JZExtension.m in Sources */,
 				4ED803F21D531ABB000691C1 /* UIImage+Blur.m in Sources */,
 				4ED8043A1D531ABB000691C1 /* UIView+ViewController.m in Sources */,
-				4ED802A21D531A65000691C1 /* UINavigationController+M13ProgressViewBar.m in Sources */,
 				4ED804311D531ABB000691C1 /* UIView+FDCollapsibleConstraints.m in Sources */,
 				4ED804201D531ABB000691C1 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				4ED803D41D531ABB000691C1 /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				4ED803EF1D531ABB000691C1 /* UIImage+Alpha.m in Sources */,
-				4ED8029F1D531A65000691C1 /* M13ProgressConsole.m in Sources */,
 				4ED804011D531ABB000691C1 /* UIImageView+FaceAwareFill.m in Sources */,
-				4ED805B31D532CC2000691C1 /* UIViewController+Swizzle.m in Sources */,
+				4EA4217C1D542A1D003F9BDB /* M13ProgressView.m in Sources */,
 				4ED802351D531927000691C1 /* QBAssetsCollectionCheckmarkView.m in Sources */,
 				4ED804441D531ABB000691C1 /* UIViewController+Visible.m in Sources */,
 				4ED8041E1D531ABB000691C1 /* UITableView+FDIndexPathHeightCache.m in Sources */,
@@ -1712,14 +1582,12 @@
 				4ED8042F1D531ABB000691C1 /* UIView+Debug.m in Sources */,
 				4ED804121D531ABB000691C1 /* UIPopoverController+iPhone.m in Sources */,
 				4ED804221D531ABB000691C1 /* UITableViewCell+NIB.m in Sources */,
-				4ED802AC1D531A65000691C1 /* M13ProgressViewRadiative.m in Sources */,
 				4ED803EA1D531ABB000691C1 /* UIDevice+Hardware.m in Sources */,
 				4ED804381D531ABB000691C1 /* UIView+Shake.m in Sources */,
 				4ED8042D1D531ABB000691C1 /* UIView+Constraints.m in Sources */,
 				4ED804351D531ABB000691C1 /* UIView+Nib.m in Sources */,
 				4ED804131D531ABB000691C1 /* UIResponder+Chain.m in Sources */,
 				4ED805881D5327AF000691C1 /* NetWorkBaseUrlConfig.m in Sources */,
-				4ED802A71D531A65000691C1 /* M13ProgressViewImage.m in Sources */,
 				4ED804091D531ABB000691C1 /* UINavigationBar+Awesome.m in Sources */,
 				4ED804361D531ABB000691C1 /* UIView+Recursion.m in Sources */,
 				4ED804331D531ABB000691C1 /* UIView+Frame.m in Sources */,
@@ -1739,14 +1607,12 @@
 				4ED805AE1D532CC2000691C1 /* NSString+Additions.m in Sources */,
 				4ED802701D5319D2000691C1 /* MPImageCollectionCell.m in Sources */,
 				4ED8058A1D5327AF000691C1 /* YTKBaseRequest.m in Sources */,
-				4ED802AB1D531A65000691C1 /* M13ProgressViewPie.m in Sources */,
 				4ED8044D1D531ABB000691C1 /* WebView+Debug.m in Sources */,
 				4ED8044A1D531ABB000691C1 /* UIWebView+MetaParser.m in Sources */,
 				4ED803EE1D531ABB000691C1 /* UIFont-TTF.m in Sources */,
 				4ED8024B1D53197F000691C1 /* imageCompressHelper.m in Sources */,
 				4ED804421D531ABB000691C1 /* UIViewController+StoreKit.m in Sources */,
 				4ED8044C1D531ABB000691C1 /* UIWebVIew+SwipeGesture.m in Sources */,
-				4ED802A51D531A65000691C1 /* M13ProgressViewBorderedBar.m in Sources */,
 				4ED803E51D531ABB000691C1 /* UIColor+Modify.m in Sources */,
 				4ED804161D531ABB000691C1 /* UIScreen+Frame.m in Sources */,
 				4ED803F11D531ABB000691C1 /* UIImage+BetterFace.m in Sources */,

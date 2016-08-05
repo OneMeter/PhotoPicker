@@ -33,12 +33,13 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.0)
+  - DACircularProgress (~> 2.3.1)
   - MBProgressHUD (~> 0.9)
   - MWPhotoBrowser
   - ReactiveCocoa (~> 2.5)
@@ -49,8 +50,8 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
 
-PODFILE CHECKSUM: 241cc77671111a1a080cbaa0cf4cf1320b1dde91
+PODFILE CHECKSUM: 286c60b74dcd10d2620ce309c6bfde20aef315b7
 
 COCOAPODS: 1.0.0
